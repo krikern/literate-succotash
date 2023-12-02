@@ -1,0 +1,10 @@
+[Unit]
+Description=Add a description here
+
+[Service]
+Type=simple
+ExecStart=/var/www/html/example.com/public_html/analytics.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
